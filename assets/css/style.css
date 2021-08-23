@@ -8,6 +8,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --email-address: 'dinhduclam2001@gmail.com';
+  --phone-number: '+840969582001';
+}
+
+.email-address::after {
+  content: var(--email-address);
+  
+}
+
+.phone-number::after {
+  content: var(--phone-number);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
